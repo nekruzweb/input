@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("pexels-craig-adderley-1563356.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.row {
+    width: 800px;
+    margin: 0 auto;
+    backdrop-filter: blur(7px);
+    padding: 20px;
+    border-radius: 25px;
+    border: 1px solid rgba(211, 211, 211, 0.144);
+}
+
+.bgli {
+    background-color: #19875488;
+    padding: 8px;
+    border-radius: 15px;
+}
+
+.list-group li {
+    margin: 3px 0px;
+    border-radius: 5px;
+}
+
+
+.del {
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+    transition: .1s;
+}
+.del:hover {
+    color: #ee1717;
+}
+.del:active {
+    font-size: 18px;
+}
